@@ -6,9 +6,11 @@ Rodriguez-Meira, A., Buck, G., Clark, S.-A., Povinelli, B.J., Alcolea, V., Louka
 
 https://doi.org/10.1016/j.molcel.2019.01.009
 
-# TARGET-seq single cell genotyping pipeline (SCpipeline)
+# TARGET-seq whole transcriptome analysis
 
-The scripts below are example scripts on how to run preprocessing steps from fastq generation, alignment using STAR and generation of counts tables using FeatureCounts. 
+The scripts below are example scripts on how to run preprocessing steps to analyze whole transcriptome TARGET-seq data, from fastq generation, alignment (using STAR) and generation of counts tables using FeatureCounts. 
+
+You can find the pipeline to analyze TARGET-seq single cell genotyping data in https://github.com/albarmeira/TARGET-seq/
 
 Author: Alba Rodriguez-Meira.
 
