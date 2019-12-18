@@ -24,7 +24,7 @@ Author: Alba Rodriguez-Meira.
 ```
 module load bcl2fastq/2.20.0.422
 
-bcl2fastq -o output_dir/ --sample-sheet example_sheet.csv --use-bases-mask I14N*,I8,Y70 --no-lane-splitting
+bcl2fastq -o output_dir/ --sample-sheet example_sample_sheet.csv --use-bases-mask I14N*,I8,Y70 --no-lane-splitting
 ```
 You can find an example_sample_sheet.csv for bcl2fastq demultiplexing of TARGET-seq fastq files in this repository.
 
