@@ -1,20 +1,32 @@
-# TARGET-seq-WTA
+# TARGET-seq-WTA <img align="right" width="250" height="125" src="https://github.com/albarmeira/TARGET-seq/blob/master/target.png">
 
-Example scripts to perform whole transcriptome analysis of TARGET-seq datasets
+"Unravelling intratumoral heterogeneity through high-sensitivity single-cell mutational analysis and parallel RNA-sequencing"
 
+Rodriguez-Meira, A., Buck, G., Clark, S.-A., Povinelli, B.J., Alcolea, V., Louka, E., McGowan, S., Hamblin, A., Sousos, N., Barkas, N., et al. (2018). Unraveling intratumoral heterogeneity through high-sensitivity single-cell mutational analysis and parallel RNA-sequencing. Molecular Cell.
 
-1.	First, demultiplex your files using bcl2fastq (Illumina). Edit RunInfo.xlm file read1, to change read1 to an index read.
+https://doi.org/10.1016/j.molcel.2019.01.009
+
+# TARGET-seq single cell genotyping pipeline (SCpipeline)
+
+The scripts below are example scripts on how to run preprocessing steps from fastq generation, alignment using STAR and generation of counts tables using FeatureCounts. 
+
+Author: Alba Rodriguez-Meira.
+
+1.First, demultiplex your files using bcl2fastq (Illumina). Edit RunInfo.xlm file read1, to change read1 to an index read.
 
 <Read Number="1" NumCycles="15" IsIndexedRead="Y" />
 
-2.	Run bcl2fastq using a sample sheet containing barcode R1 (cell barcode ) and index read (i7 pool barcode) sequences. For example, considering you are using barcoded oligodT containing a 14 cell barcode sequence, and i7 Illumina indexes (8 bp), you should use the following read configuration R1=15 cycles, I=8 cycles and R2=70 cycles, and run the following command line:
+2.Run bcl2fastq using a sample sheet containing barcode R1 (cell barcode ) and index read (i7 pool barcode) sequences. For example, considering you are using barcoded oligodT containing a 14 cell barcode sequence, and i7 Illumina indexes (8 bp), you should use the following read configuration R1=15 cycles, I=8 cycles and R2=70 cycles, and run the following command line:
 
+```
 module load bcl2fastq/2.20.0.422
 
 bcl2fastq -o output_dir/ --sample-sheet example_sheet.csv --use-bases-mask I14N*,I8,Y70 --no-lane-splitting
+```
 
-3.	Then use STAR to align each *.fastq file:
+3.Then use STAR to align each *.fastq file:
 
+```
 #!/bin/sh
 #$ -N starAlign
 #$ -cwd
@@ -48,9 +60,11 @@ do
 done
 
 STAR --genomeDir $genomeDir --genomeLoad Remove
+```
 
-4.	Finally, generate a counts table using FeatureCounts:
+4.Finally, generate a counts table using FeatureCounts:
 
+```
 #!/bin/sh
 #$ -N SortBam
 #$ -cwd
@@ -66,4 +80,4 @@ do
         samtools index output_counts/$prefix.sorted.bam
 
 done
-
+```
