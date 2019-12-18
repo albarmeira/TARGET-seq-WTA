@@ -8,9 +8,9 @@ https://doi.org/10.1016/j.molcel.2019.01.009
 
 # TARGET-seq whole transcriptome analysis
 
-The scripts below are example scripts on how to run preprocessing steps to analyze whole transcriptome TARGET-seq data, from fastq generation, alignment (using STAR) and generation of counts tables using FeatureCounts. 
+Below are example scripts on how to run preprocessing steps to analyze whole transcriptome TARGET-seq data, from fastq generation, alignment (using STAR) and generation of counts tables using FeatureCounts. 
 
-You can find the pipeline to analyze TARGET-seq single cell genotyping data in https://github.com/albarmeira/TARGET-seq/
+You can find the pipeline to analyze TARGET-seq single cell genotyping data (SCpipeline) in https://github.com/albarmeira/TARGET-seq/
 
 Author: Alba Rodriguez-Meira.
 
@@ -26,7 +26,7 @@ module load bcl2fastq/2.20.0.422
 bcl2fastq -o output_dir/ --sample-sheet example_sheet.csv --use-bases-mask I14N*,I8,Y70 --no-lane-splitting
 ```
 
-3.Then use STAR to align each *.fastq file:
+3.Then use STAR to align each * .fastq file:
 
 ```
 #!/bin/sh
