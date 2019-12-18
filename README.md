@@ -16,7 +16,7 @@ Author: Alba Rodriguez-Meira.
 
 1.First, demultiplex your files using bcl2fastq (Illumina). Edit RunInfo.xlm file read1, to change read1 to an index read.
 
-<Read Number="1" NumCycles="15" IsIndexedRead="Y" />
+Read Number="1" NumCycles="15" IsIndexedRead="Y" /
 
 2.Run bcl2fastq using a sample sheet containing barcode R1 (cell barcode ) and index read (i7 pool barcode) sequences. For example, considering you are using barcoded oligodT containing a 14 cell barcode sequence, and i7 Illumina indexes (8 bp), you should use the following read configuration R1=15 cycles, I=8 cycles and R2=70 cycles, and run the following command line:
 
