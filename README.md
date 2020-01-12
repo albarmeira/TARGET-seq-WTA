@@ -94,16 +94,7 @@ featureCounts --primary -T 4 -a /path_to_annotation/annotation.gtf  -o counts.tx
 
 # 2. Full length TARGET-seq whole transcriptome analysis
 
-2. 1. Full-length TARGET-seq dataset contain two index reads (i7/i5). First, demultiplex your files using bcl2fastq (Illumina). Run bcl2fastq using a sample sheet containing index read 1 (i7) and index read 2 (i5) sequences.
-
-If using single-end 75 cycle reads:
-
-```
-module load bcl2fastq/2.20.0.422
-
-bcl2fastq -o output_dir/ --sample-sheet example_sample_sheet_FLTARGETseq.csv --no-lane-splitting
-```
-If using paired-end 75 cycle reads:
+2. 1. Full-length TARGET-seq dataset contain two index reads (i7/i5). First, demultiplex your files using bcl2fastq (Illumina). Run bcl2fastq using a sample sheet containing index read 1 (i7) and index read 2 (i5) sequences:
 
 ```
 module load bcl2fastq/2.20.0.422
