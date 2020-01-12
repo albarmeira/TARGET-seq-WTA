@@ -1,0 +1,106 @@
+[Header],,,,,,,,,
+FileVersion,1,,,,,,,,
+LibraryPrepKit,Nextera XT,,,,,,,,
+ContainerType,Plate96,,,,,,,,
+ContainerID,TestPlate4385,,,,,,,,
+Notes,This is a test plate for importing libraries,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+[Data],,,,,,,,,
+SampleID,Name,Species,Project,NucleicAcid,Well,Index1Name,Index1Sequence,Index2Name,Index2Sequence
+patient1_1A,patient1_1A,Homo sapiens,project_name,DNA,A01,N701,TAAGGCGA,S517,GCGTAAGA
+patient1_1B,patient1_1B,Homo sapiens,project_name,DNA,B01,N701,TAAGGCGA,S502,CTCTCTAT
+patient1_1C,patient1_1C,Homo sapiens,project_name,DNA,C01,N701,TAAGGCGA,S503,TATCCTCT
+patient1_1D,patient1_1D,Homo sapiens,project_name,DNA,D01,N701,TAAGGCGA,S504,AGAGTAGA
+patient1_1E,patient1_1E,Homo sapiens,project_name,DNA,E01,N701,TAAGGCGA,S505,GTAAGGAG
+patient1_1F,patient1_1F,Homo sapiens,project_name,DNA,F01,N701,TAAGGCGA,S506,ACTGCATA
+patient1_1G,patient1_1G,Homo sapiens,project_name,DNA,G01,N701,TAAGGCGA,S507,AAGGAGTA
+patient1_1H,patient1_1H,Homo sapiens,project_name,DNA,H01,N701,TAAGGCGA,S508,CTAAGCCT
+patient1_2A,patient1_2A,Homo sapiens,project_name,DNA,A02,N702,CGTACTAG,S517,GCGTAAGA
+patient1_2B,patient1_2B,Homo sapiens,project_name,DNA,B02,N702,CGTACTAG,S502,CTCTCTAT
+patient1_2C,patient1_2C,Homo sapiens,project_name,DNA,C02,N702,CGTACTAG,S503,TATCCTCT
+patient1_2D,patient1_2D,Homo sapiens,project_name,DNA,D02,N702,CGTACTAG,S504,AGAGTAGA
+patient1_2E,patient1_2E,Homo sapiens,project_name,DNA,E02,N702,CGTACTAG,S505,GTAAGGAG
+patient1_2F,patient1_2F,Homo sapiens,project_name,DNA,F02,N702,CGTACTAG,S506,ACTGCATA
+patient1_6H,patient1_6H,Homo sapiens,project_name,DNA,G02,N702,CGTACTAG,S507,AAGGAGTA
+patient1_2H,patient1_2H,Homo sapiens,project_name,DNA,H02,N702,CGTACTAG,S508,CTAAGCCT
+patient1_4A,patient1_4A,Homo sapiens,project_name,DNA,A03,N703,AGGCAGAA,S517,GCGTAAGA
+patient1_4D,patient1_4D,Homo sapiens,project_name,DNA,B03,N703,AGGCAGAA,S502,CTCTCTAT
+patient1_4E,patient1_4E,Homo sapiens,project_name,DNA,C03,N703,AGGCAGAA,S503,TATCCTCT
+patient1_4F,patient1_4F,Homo sapiens,project_name,DNA,D03,N703,AGGCAGAA,S504,AGAGTAGA
+patient1_4G,patient1_4G,Homo sapiens,project_name,DNA,E03,N703,AGGCAGAA,S505,GTAAGGAG
+patient1_4H,patient1_4H,Homo sapiens,project_name,DNA,F03,N703,AGGCAGAA,S506,ACTGCATA
+patient1_5A,patient1_5A,Homo sapiens,project_name,DNA,G03,N703,AGGCAGAA,S507,AAGGAGTA
+patient1_5B,patient1_5B,Homo sapiens,project_name,DNA,H03,N703,AGGCAGAA,S508,CTAAGCCT
+patient1_5H,patient1_5H,Homo sapiens,project_name,DNA,A04,N704,TCCTGAGC,S517,GCGTAAGA
+patient1_7F,patient1_7F,Homo sapiens,project_name,DNA,B04,N704,TCCTGAGC,S502,CTCTCTAT
+patient1_7H,patient1_7H,Homo sapiens,project_name,DNA,C04,N704,TCCTGAGC,S503,TATCCTCT
+patient1_8A,patient1_8A,Homo sapiens,project_name,DNA,D04,N704,TCCTGAGC,S504,AGAGTAGA
+patient1_8B,patient1_8B,Homo sapiens,project_name,DNA,E04,N704,TCCTGAGC,S505,GTAAGGAG
+patient1_8D,patient1_8D,Homo sapiens,project_name,DNA,F04,N704,TCCTGAGC,S506,ACTGCATA
+patient1_8E,patient1_8E,Homo sapiens,project_name,DNA,G04,N704,TCCTGAGC,S507,AAGGAGTA
+patient2_5A,patient2_5A,Homo sapiens,project_name,DNA,H04,N704,TCCTGAGC,S508,CTAAGCCT
+patient1_9E,patient1_9E,Homo sapiens,project_name,DNA,A05,N705,GGACTCCT,S517,GCGTAAGA
+patient1_9F,patient1_9F,Homo sapiens,project_name,DNA,B05,N705,GGACTCCT,S502,CTCTCTAT
+patient1_9G,patient1_9G,Homo sapiens,project_name,DNA,C05,N705,GGACTCCT,S503,TATCCTCT
+patient1_9H,patient1_9H,Homo sapiens,project_name,DNA,D05,N705,GGACTCCT,S504,AGAGTAGA
+patient3_2A,patient3_2A,Homo sapiens,project_name,DNA,E05,N705,GGACTCCT,S505,GTAAGGAG
+patient3_2C,patient3_2C,Homo sapiens,project_name,DNA,F05,N705,GGACTCCT,S506,ACTGCATA
+patient3_2E,patient3_2E,Homo sapiens,project_name,DNA,G05,N705,GGACTCCT,S507,AAGGAGTA
+patient3_2G,patient3_2G,Homo sapiens,project_name,DNA,H05,N705,GGACTCCT,S508,CTAAGCCT
+patient1_10D,patient1_10D,Homo sapiens,project_name,DNA,A06,N706,TAGGCATG,S517,GCGTAAGA
+patient1_10E,patient1_10E,Homo sapiens,project_name,DNA,B06,N706,TAGGCATG,S502,CTCTCTAT
+patient1_10F,patient1_10F,Homo sapiens,project_name,DNA,C06,N706,TAGGCATG,S503,TATCCTCT
+patient1_10G,patient1_10G,Homo sapiens,project_name,DNA,D06,N706,TAGGCATG,S504,AGAGTAGA
+patient1_10H,patient1_10H,Homo sapiens,project_name,DNA,E06,N706,TAGGCATG,S505,GTAAGGAG
+patient2_3A,patient2_3A,Homo sapiens,project_name,DNA,F06,N706,TAGGCATG,S506,ACTGCATA
+patient2_3C,patient2_3C,Homo sapiens,project_name,DNA,G06,N706,TAGGCATG,S507,AAGGAGTA
+patient2_3D,patient2_3D,Homo sapiens,project_name,DNA,H06,N706,TAGGCATG,S508,CTAAGCCT
+patient1_11A,patient1_11A,Homo sapiens,project_name,DNA,A07,N707,CTCTCTAC,S517,GCGTAAGA
+patient1_11B,patient1_11B,Homo sapiens,project_name,DNA,B07,N707,CTCTCTAC,S502,CTCTCTAT
+patient1_11C,patient1_11C,Homo sapiens,project_name,DNA,C07,N707,CTCTCTAC,S503,TATCCTCT
+patient1_11D,patient1_11D,Homo sapiens,project_name,DNA,D07,N707,CTCTCTAC,S504,AGAGTAGA
+patient1_11E,patient1_11E,Homo sapiens,project_name,DNA,E07,N707,CTCTCTAC,S505,GTAAGGAG
+patient1_11F,patient1_11F,Homo sapiens,project_name,DNA,F07,N707,CTCTCTAC,S506,ACTGCATA
+patient1_11G,patient1_11G,Homo sapiens,project_name,DNA,G07,N707,CTCTCTAC,S507,AAGGAGTA
+patient1_11H,patient1_11H,Homo sapiens,project_name,DNA,H07,N707,CTCTCTAC,S508,CTAAGCCT
+patient1_12A,patient1_12A,Homo sapiens,project_name,DNA,A08,N708,CAGAGAGG,S517,GCGTAAGA
+patient1_12B,patient1_12B,Homo sapiens,project_name,DNA,B08,N708,CAGAGAGG,S502,CTCTCTAT
+patient1_12C,patient1_12C,Homo sapiens,project_name,DNA,C08,N708,CAGAGAGG,S503,TATCCTCT
+patient1_12D,patient1_12D,Homo sapiens,project_name,DNA,D08,N708,CAGAGAGG,S504,AGAGTAGA
+patient1_12E,patient1_12E,Homo sapiens,project_name,DNA,E08,N708,CAGAGAGG,S505,GTAAGGAG
+patient1_12F,patient1_12F,Homo sapiens,project_name,DNA,F08,N708,CAGAGAGG,S506,ACTGCATA
+patient1_12G,patient1_12G,Homo sapiens,project_name,DNA,G08,N708,CAGAGAGG,S507,AAGGAGTA
+patient1_12H,patient1_12H,Homo sapiens,project_name,DNA,H08,N708,CAGAGAGG,S508,CTAAGCCT
+patient2_1A,patient2_1A,Homo sapiens,project_name,DNA,A09,N709,GCTACGCT,S517,GCGTAAGA
+patient2_1B,patient2_1B,Homo sapiens,project_name,DNA,B09,N709,GCTACGCT,S502,CTCTCTAT
+patient2_1C,patient2_1C,Homo sapiens,project_name,DNA,C09,N709,GCTACGCT,S503,TATCCTCT
+patient2_1D,patient2_1D,Homo sapiens,project_name,DNA,D09,N709,GCTACGCT,S504,AGAGTAGA
+patient2_1E,patient2_1E,Homo sapiens,project_name,DNA,E09,N709,GCTACGCT,S505,GTAAGGAG
+patient2_1F,patient2_1F,Homo sapiens,project_name,DNA,F09,N709,GCTACGCT,S506,ACTGCATA
+patient2_1G,patient2_1G,Homo sapiens,project_name,DNA,G09,N709,GCTACGCT,S507,AAGGAGTA
+patient2_1H,patient2_1H,Homo sapiens,project_name,DNA,H09,N709,GCTACGCT,S508,CTAAGCCT
+patient2_2A,patient2_2A,Homo sapiens,project_name,DNA,A10,N710,CGAGGCTG,S517,GCGTAAGA
+patient2_2B,patient2_2B,Homo sapiens,project_name,DNA,B10,N710,CGAGGCTG,S502,CTCTCTAT
+patient2_2C,patient2_2C,Homo sapiens,project_name,DNA,C10,N710,CGAGGCTG,S503,TATCCTCT
+patient2_2D,patient2_2D,Homo sapiens,project_name,DNA,D10,N710,CGAGGCTG,S504,AGAGTAGA
+patient2_2E,patient2_2E,Homo sapiens,project_name,DNA,E10,N710,CGAGGCTG,S505,GTAAGGAG
+patient2_2F,patient2_2F,Homo sapiens,project_name,DNA,F10,N710,CGAGGCTG,S506,ACTGCATA
+patient2_2G,patient2_2G,Homo sapiens,project_name,DNA,G10,N710,CGAGGCTG,S507,AAGGAGTA
+patient2_2H,patient2_2H,Homo sapiens,project_name,DNA,H10,N710,CGAGGCTG,S508,CTAAGCCT
+patient2_5D,patient2_5D,Homo sapiens,project_name,DNA,A11,N711,AAGAGGCA,S517,GCGTAAGA
+patient2_5E,patient2_5E,Homo sapiens,project_name,DNA,B11,N711,AAGAGGCA,S502,CTCTCTAT
+patient2_5F,patient2_5F,Homo sapiens,project_name,DNA,C11,N711,AAGAGGCA,S503,TATCCTCT
+patient2_5G,patient2_5G,Homo sapiens,project_name,DNA,D11,N711,AAGAGGCA,S504,AGAGTAGA
+patient2_5H,patient2_5H,Homo sapiens,project_name,DNA,E11,N711,AAGAGGCA,S505,GTAAGGAG
+patient3_1A,patient3_1A,Homo sapiens,project_name,DNA,F11,N711,AAGAGGCA,S506,ACTGCATA
+patient3_9F,patient3_9F,Homo sapiens,project_name,DNA,G11,N711,AAGAGGCA,S507,AAGGAGTA
+patient3_1F,patient3_1F,Homo sapiens,project_name,DNA,H11,N711,AAGAGGCA,S508,CTAAGCCT
+patient3_3A,patient3_3A,Homo sapiens,project_name,DNA,A12,N712,GTAGAGGA,S517,GCGTAAGA
+patient3_3D,patient3_3D,Homo sapiens,project_name,DNA,B12,N712,GTAGAGGA,S502,CTCTCTAT
+patient3_3E,patient3_3E,Homo sapiens,project_name,DNA,C12,N712,GTAGAGGA,S503,TATCCTCT
+patient3_3F,patient3_3F,Homo sapiens,project_name,DNA,D12,N712,GTAGAGGA,S504,AGAGTAGA
+patient3_7A,patient3_7A,Homo sapiens,project_name,DNA,E12,N712,GTAGAGGA,S505,GTAAGGAG
+patient3_9E,patient3_9E,Homo sapiens,project_name,DNA,F12,N712,GTAGAGGA,S506,ACTGCATA
+patient3_1D,patient3_1D,Homo sapiens,project_name,DNA,G12,N712,GTAGAGGA,S507,AAGGAGTA
+patient3_9G,patient3_9G,Homo sapiens,project_name,DNA,H12,N712,GTAGAGGA,S508,CTAAGCCT
