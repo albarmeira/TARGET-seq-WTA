@@ -16,7 +16,7 @@ Author: Alba Rodriguez-Meira.
 
 # 1. High throughput 3'-TARGET-seq whole transcriptome analysis
 
-1. 1.First, demultiplex your files using bcl2fastq (Illumina). Edit RunInfo.xlm file read1, to change read1 to an index read.
+1.1.First, demultiplex your files using bcl2fastq (Illumina). Edit RunInfo.xlm file read1, to change read1 to an index read.
 
 ```diff
 + Read Number="1" NumCycles="15" IsIndexedRead="Y"
@@ -30,7 +30,7 @@ bcl2fastq -o output_dir/ --sample-sheet example_sample_sheet_3TARGETseq.csv --us
 ```
 You can find an example_sample_sheet.csv for bcl2fastq demultiplexing of TARGET-seq fastq files in this repository.
 
-1. 2. Trim poly-A tails using TrimGalore:
+1.2. Trim poly-A tails using TrimGalore:
 
 ```
 module load trim_galore/0.4.1
@@ -45,7 +45,7 @@ done
 
 ```
 
-1. 3.Then use STAR to align each trimmed * .fastq file:
+1.3.Then use STAR to align each trimmed * .fastq file:
 
 ```
 #!/bin/sh
@@ -80,7 +80,7 @@ done
 STAR --genomeDir $genomeDir --genomeLoad Remove
 ```
 
-1. 4.Finally, generate a counts table using FeatureCounts:
+1.4.Finally, generate a counts table using FeatureCounts:
 
 ```
 #!/bin/sh
@@ -94,7 +94,7 @@ featureCounts --primary -T 4 -a /path_to_annotation/annotation.gtf  -o counts.tx
 
 # 2. Full length TARGET-seq whole transcriptome analysis
 
-2. 1. Full-length TARGET-seq dataset contain two index reads (i7/i5). First, demultiplex your files using bcl2fastq (Illumina). Run bcl2fastq using a sample sheet containing index read 1 (i7) and index read 2 (i5) sequences:
+2.1. Full-length TARGET-seq dataset contain two index reads (i7/i5). First, demultiplex your files using bcl2fastq (Illumina). Run bcl2fastq using a sample sheet containing index read 1 (i7) and index read 2 (i5) sequences:
 
 ```
 module load bcl2fastq/2.20.0.422
@@ -104,7 +104,7 @@ bcl2fastq -o output_dir/ --sample-sheet example_sample_sheet_FLTARGETseq.csv --n
 
 You can find an example_sample_sheet_FLTARGETseq.csv for bcl2fastq demultiplexing of full-length TARGET-seq fastq files in this repository.
 
-2. 2. Trim Nextera adaptors using TrimGalore. If using single-end reads, run:
+2.2. Trim Nextera adaptors using TrimGalore. If using single-end reads, run:
 
 ```
 module load trim_galore/0.4.1
@@ -136,7 +136,7 @@ done
 
 ```
 
-2. 3. Then use STAR to align each * .fastq file. If using single-end reads, run:
+2.3. Then use STAR to align each * .fastq file. If using single-end reads, run:
 
 ```
 #!/bin/sh
@@ -208,7 +208,7 @@ done
 STAR --genomeDir $genomeDir --genomeLoad Remove
 ```
 
-2. 4. Finally, generate a counts table using FeatureCounts. If using single-end reads, run:
+2.4. Finally, generate a counts table using FeatureCounts. If using single-end reads, run:
 
 ```
 #!/bin/sh
