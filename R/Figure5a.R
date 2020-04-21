@@ -7,6 +7,16 @@
 ###############################################################################
 
 ###################################
+library(Matrix)
+library(matrixStats)
+library(limma)
+library(irlba)
+library(ggplot2)
+library(Rtsne)
+library(fgsea)
+###################################
+
+###################################
 load(file="HT_TARGETseq_counts.qc.normalized.rdata")
 load(file="HT_TARGETseq_colData.qc.rdata")
 my.db<- gmtPathways("Human_signatures.gmt") #Human signatures - including cell cycle related genes
