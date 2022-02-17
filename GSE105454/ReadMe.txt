@@ -1,4 +1,4 @@
-In this folder we provide metadata and raw gene expression matrices for GEO: GSE105454 
+In this folder we provide metadata and raw (RPKM for full-length scRNA-seq data or counts for 3'TARGET-seq data) gene expression matrices for GEO: GSE105454 
 
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE105454
 
